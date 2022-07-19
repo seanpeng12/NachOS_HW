@@ -101,7 +101,7 @@ TypeToReg(RegType reg, Instruction *instr)
 
 //----------------------------------------------------------------------
 // Machine::OneInstruction
-// 	Execute one instruction from a user-level program
+// 	Execute one instruction from a user-level program 執行一個user level指令
 //
 // 	If there is any kind of exception or interrupt, we invoke the 
 //	exception handler, and when it returns, we return to Run(), which
